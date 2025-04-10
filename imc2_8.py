@@ -2,6 +2,8 @@ from datamodel import OrderDepth, TradingState, Order
 from typing import List, Dict
 import numpy as np
 
+# test 
+
 class Trader:
     def __init__(self):
         self.fair_value_history = {"PICNIC_BASKET1": [], "PICNIC_BASKET2": []}
